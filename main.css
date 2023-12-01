@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+
+h2 {
+    padding: 8px;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.certo {
+    background-color: #27ae60;
+    padding: 16px;
+    display: none;
+}
+
+.errado {
+    font-size: 16px;
+    padding: 18px;
+    background-color: red;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
